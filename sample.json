@@ -1,0 +1,206 @@
+{
+  "status": "ok",
+  "totalResults": 36,
+  "articles": [
+    {
+      "source": { "id": null, "name": "GMA" },
+      "author": "Danielle Long",
+      "title": "Paris Hilton announces birth of 1st child - GMA",
+      "description": "",
+      "url": "https://www.goodmorningamerica.com/culture/story/paris-hilton-welcomes-1st-child-husband-carter-reum-96660753",
+      "urlToImage": "https://s.abcnews.com/images/GMA/paris-hilton1-file-gty-ml-230125_1674648961737_hpMain_16x9_608.jpg",
+      "publishedAt": "2023-01-25T18:11:15Z",
+      "content": "Paris Hilton is a mom.\r\nThe 41-year-old entrepreneur and her husband Carter Reum, also 41, recently welcomed their first child together, a baby boy, \"Good Morning America\" has confirmed.\r\nTaking to I… [+596 chars]"
+    },
+    {
+      "source": { "id": "cnn", "name": "CNN" },
+      "author": "Christina Maxouris, Casey Tolan, Curt Devine",
+      "title": "Half Moon Bay shooting suspect legally owned his gun and targeted specific people, authorities said. Here's what we know about him - CNN",
+      "description": "The man suspected of killing four people at a California mushroom farm and three others at a nearby site Monday had legal possession of a semi-automatic weapon that was registered to him, a sheriff said.",
+      "url": "https://www.cnn.com/2023/01/25/us/half-moon-bay-shooting-suspect-chunli-zhao-what-we-know/index.html",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230124163150-suspect-half-moon-bay-shooting.jpg?c=16x9&q=w_800,c_fill",
+      "publishedAt": "2023-01-25T18:04:00Z",
+      "content": "The man suspected of killing four people at a California mushroom farm and three others at a nearby site Monday had legal possession of a semi-automatic weapon that was registered to him, a sheriff s… [+4617 chars]"
+    },
+    {
+      "source": { "id": "cnn", "name": "CNN" },
+      "author": "Brenda Goodman",
+      "title": "Updated Covid-19 boosters continue to offer substantial protection, even against rapidly spreading XBB.1.5 subvariant - CNN",
+      "description": "The updated boosters are cutting the risk that a person will get sick from Covid-19 by about half, even against infections caused by the rapidly spreading XBB.1.5 subvariant.",
+      "url": "https://www.cnn.com/2023/01/25/health/bivalent-boosters-covid-xbb-protection/index.html",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/221011162159-03-coronavirus-omicron-travel-vaccine-health-wellness.jpg?c=16x9&q=w_800,c_fill",
+      "publishedAt": "2023-01-25T18:02:00Z",
+      "content": "The updated boosters are cutting the risk that a person will get sick from Covid-19 by about half, even against infections caused by the rapidly spreading XBB.1.5 subvariant.\r\nThe studies, conducted … [+3178 chars]"
+    },
+    {
+      "source": { "id": null, "name": "CNET" },
+      "author": "Zachary McAuliffe",
+      "title": "iOS 16.3 Is Here: Try These New Features on Your iPhone Now - CNET",
+      "description": "The update includes some new features, bug fixes and security patches.",
+      "url": "https://www.cnet.com/tech/services-and-software/ios-16-3-is-here-try-these-new-features-on-your-iphone-now/",
+      "urlToImage": "https://www.cnet.com/a/img/resize/1d57216bbf6877a5d8bec25f51c61cad31dc1a28/hub/2022/08/09/4802287e-8f71-4dfe-afc7-8a562f15a407/ios16.png?auto=webp&fit=crop&height=630&width=1200",
+      "publishedAt": "2023-01-25T17:56:19Z",
+      "content": "Apple's iOS 16.3 update is available now, and it brings new features, bug fixes and security updates for your iPhone. The update was released alongside updates for other Apple software, too, like iPa… [+3842 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Gizmodo.com" },
+      "author": "Lauren Leffer",
+      "title": "Shutterstock Has Launched Its Generative AI Image Tool - Gizmodo",
+      "description": "The company signed a deal with DALL-E creator, OpenAi, in October, and now Shutterstock is offering the artificial intelligence option to all its customers.",
+      "url": "https://gizmodo.com/shutterstock-ai-art-open-ai-dall-e-1850028869",
+      "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/85f07f4dc7d1451693d637e03881431e.jpg",
+      "publishedAt": "2023-01-25T17:25:00Z",
+      "content": "Shutterstock, one of the internets biggest sources of stock photos and illustrations, is now offering its customers the option to generate their own AI images. In October, the company announced a par… [+4642 chars]"
+    },
+    {
+      "source": { "id": "reuters", "name": "Reuters" },
+      "author": null,
+      "title": "Ex-kickboxer Andrew Tate says Romanian prosecutors have no evidence against him - Reuters",
+      "description": "Divisive internet personality Andrew Tate said on Wednesday there was no justice in Romania and that the case file against him in a criminal investigation for alleged human trafficking and rape was empty.",
+      "url": "https://www.reuters.com/world/europe/ex-kickboxer-andrew-tate-says-romanian-prosecutors-have-no-evidence-against-him-2023-01-25/",
+      "urlToImage": "https://www.reuters.com/resizer/irLlc7pCJrls2oVOH4VscvBfIIc=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/XMNQKQNNRZJTHOM53ICV2PVLUM.jpg",
+      "publishedAt": "2023-01-25T17:24:00Z",
+      "content": "BUCHAREST, Jan 25 (Reuters) - Divisive internet personality Andrew Tate said on Wednesday there was no justice in Romania and that the case file against him in a criminal investigation for alleged hu… [+2394 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Variety" },
+      "author": "K.J. Yossman",
+      "title": "Razzies Apologize for Nominating 12-Year-Old Actor, Introduce Age Limit for Nominations - Variety",
+      "description": "The Razzie Awards have introduced an age limit for nominations following blowback after 12-year-old Ryan Kiera Armstrong (pictured above) was nominated for Worst Actress. In a statement, Razzies fo…",
+      "url": "https://variety.com/2023/awards/news/razzies-apologize-age-limit-ryan-kiera-armstrong-1235502000/",
+      "urlToImage": "https://variety.com/wp-content/uploads/2023/01/Collage-Maker-25-Jan-2023-04.32-PM.jpg?w=1000&h=563&crop=1",
+      "publishedAt": "2023-01-25T16:52:00Z",
+      "content": "The Razzie Awards have introduced an age limit for nominations following blowback after 12-year-old Ryan Kiera Armstrong (pictured above) was nominated for Worst Actress.\r\nIn a statement, Razzies fou… [+2857 chars]"
+    },
+    {
+      "source": { "id": "reuters", "name": "Reuters" },
+      "author": null,
+      "title": "Microsoft cloud outage hits users around the world - Reuters",
+      "description": "Microsoft Corp <a href=\"https://www.reuters.com/companies/MSFT.O\" target=\"_blank\">(MSFT.O)</a> said on Wednesday it had recovered all of its cloud services after a networking outage took down its cloud platform Azure along with services such as Teams and Outl…",
+      "url": "https://www.reuters.com/technology/microsoft-teams-down-thousands-users-india-downdetector-2023-01-25/",
+      "urlToImage": "https://www.reuters.com/resizer/RRbhmpbqxH9L32xnuJ96sIcSABU=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/H5CA7QWSR5K5ZEPXJFJKVXWAXA.jpg",
+      "publishedAt": "2023-01-25T16:41:00Z",
+      "content": "Jan 25 (Reuters) - Microsoft Corp (MSFT.O) said on Wednesday it had recovered all of its cloud services after a networking outage took down its cloud platform Azure along with services such as Teams … [+4211 chars]"
+    },
+    {
+      "source": { "id": null, "name": "DW (English)" },
+      "author": "Deutsche Welle",
+      "title": "Germany: 2 killed, several injured in train knife attack - DW (English)",
+      "description": "Two people have been killed and seven wounded in a knife attack on a train in Germany. The attack took place in the northern state of Schleswig-Holstein that borders Denmark. A young man is in police custody.",
+      "url": "https://www.dw.com/en/germany-2-killed-several-injured-in-train-knife-attack/a-64513554",
+      "urlToImage": "https://static.dw.com/image/64513579_6.jpg",
+      "publishedAt": "2023-01-25T16:21:25Z",
+      "content": "Schleswig-Holstein's state Interior Minister Sabine Sütterlin-Waack told the German dpa news agency that two people had been killed and five injured in the attack.\r\nMeanwhile, the AFP news agency quo… [+1743 chars]"
+    },
+    {
+      "source": { "id": "ars-technica", "name": "Ars Technica" },
+      "author": "Andrew Cunningham",
+      "title": "512GB version of the new MacBook Pro has a slower SSD than the Mac it replaces - Ars Technica",
+      "description": "Apple is using fewer chips in M2 Macs to provide the same amount of storage.",
+      "url": "https://arstechnica.com/gadgets/2023/01/entry-level-m2-pro-macbook-pros-have-slower-ssd-performance-than-m1-versions/",
+      "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2023/01/m2-mbp-hero-760x380.jpg",
+      "publishedAt": "2023-01-25T15:45:48Z",
+      "content": "Enlarge/ The 14- and 16-inch M2 MacBook Pros.\r\n43 with 0 posters participating\r\nIn our review of Apple's new M2 MacBook Pros, our testing showed that the laptops' internal storage speeds were higher … [+2105 chars]"
+    },
+    {
+      "source": { "id": null, "name": "CNBC" },
+      "author": "Holly Ellyatt",
+      "title": "Ukraine war live updates: Berlin sends tanks to Ukraine; Russia says heavy weaponry for Kyiv is a 'blatant provocation' - CNBC",
+      "description": "The U.S. and Germany are believed to be on the cusp of agreeing to deliver modern battle tanks to Ukraine after months of indecision and debate over the issue.",
+      "url": "https://www.cnbc.com/2023/01/25/ukraine-war-live-updates-latest-news-on-russia-and-the-war-in-ukraine.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/107183497-1674626420215-gettyimages-1458246806-siversk154025_4ce66eb7-e729-49de-9b89-98cc15459ead.jpeg?v=1674628474&w=1920&h=1080",
+      "publishedAt": "2023-01-25T15:42:00Z",
+      "content": "While international news headlines are focusing on the issue of tanks for Kyiv, the country continues to experience missile strikes on the north, northeast, east and south.\r\nThe General Staff of the … [+1538 chars]"
+    },
+    {
+      "source": { "id": null, "name": "WJXT News4JAX" },
+      "author": "Vic Micolucci",
+      "title": "Suspect arrested in ambush murder of Jared Bridegan in Jacksonville Beach 'didn't act alone,' state attorney says - WJXT News4JAX ",
+      "description": "Nearly a year after a father of four was gunned down in what police believe was a targeted ambush shooting in Jacksonville Beach, police and the state attorney’s office announced an arrest in the case Wednesday.",
+      "url": "https://www.news4jax.com/news/local/2023/01/25/jacksonville-beach-police-state-attorney-announce-significant-development-in-jared-bridegan-murder-case/",
+      "urlToImage": "https://res.cloudinary.com/graham-media-group/image/upload/f_auto/q_auto/c_thumb,w_700/v1/media/gmg/3L7EZGA4JFDRFPXS3DJZPGAUDM.jpg?_a=ATO2Bfe0",
+      "publishedAt": "2023-01-25T15:28:43Z",
+      "content": "JACKSONVILLE BEACH, Fla. Nearly a year after a father of four was gunned down in what police believe was a targeted ambush shooting in Jacksonville Beach, police and the state attorneys office announ… [+5628 chars]"
+    },
+    {
+      "source": { "id": "ars-technica", "name": "Ars Technica" },
+      "author": "Eric Berger",
+      "title": "NASA will join a military program to develop nuclear thermal propulsion - Ars Technica",
+      "description": "None of this will happen quickly. The technology is difficult and unproven.",
+      "url": "https://arstechnica.com/science/2023/01/nasa-will-join-a-military-program-to-develop-nuclear-thermal-propulsion/",
+      "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2023/01/draco-4-darpa-nasa-ussf-caption-760x380.jpg",
+      "publishedAt": "2023-01-25T15:18:46Z",
+      "content": "Enlarge/ Artist concept of Demonstration for Rocket to Agile Cislunar Operations (DRACO) spacecraft.\r\n59 with 0 posters participating\r\nNearly three years ago, the US Defense Advanced Research Project… [+3117 chars]"
+    },
+    {
+      "source": { "id": "cnn", "name": "CNN" },
+      "author": "Aya Elamroussi",
+      "title": "Thousands without power after reported tornadoes strike Texas and Louisiana communities as storm continues to threaten South, Midwest - CNN",
+      "description": "More than a dozen reported tornadoes struck across communities in Texas and Louisiana, damaging many homes and businesses as windows and roofs were blown off buildings -- and the threat is expected to persist Wednesday in other southern states.",
+      "url": "https://www.cnn.com/2023/01/25/weather/south-northeast-storms-wednesday/index.html",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230125013603-02-pasadena-tx-tornado-012423.jpg?c=16x9&q=w_800,c_fill",
+      "publishedAt": "2023-01-25T15:13:00Z",
+      "content": "More than a dozen reported tornadoes struck across communities in Texas and Louisiana, damaging many homes and businesses as windows and roofs were blown off buildings and the threat is expected to p… [+3311 chars]"
+    },
+    {
+      "source": { "id": "cnn", "name": "CNN" },
+      "author": "Lianne Kolirin",
+      "title": "Earth's inner core may have stopped turning and could go into reverse, study suggests - CNN",
+      "description": "The rotation of Earth's inner core may have paused and it could even go into reverse, new research suggests.",
+      "url": "https://www.cnn.com/2023/01/25/world/earth-core-turning-scli-scn-intl/index.html",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230124103823-earth-core-structure.jpg?c=16x9&q=w_800,c_fill",
+      "publishedAt": "2023-01-25T15:02:00Z",
+      "content": "Sign up for CNNs Wonder Theory science newsletter. Explore the universe with news on fascinating discoveries, scientific advancements and more.\r\nThe rotation of Earths inner core may have paused and … [+3718 chars]"
+    },
+    {
+      "source": { "id": "engadget", "name": "Engadget" },
+      "author": "https://www.engadget.com/about/editors/kris-holt",
+      "title": "'GoldenEye 007' will hit Switch and Xbox on January 27th - Engadget",
+      "description": "The Nintendo 64 classic 'GoldenEye 007' is coming to Nintendo Switch and Xbox this week.",
+      "url": "https://www.engadget.com/goldeneye-007-nintendo-switch-xbox-release-date-144644341.html",
+      "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2023-01/96064a20-9cbd-11ed-bb77-5c2be399dc61",
+      "publishedAt": "2023-01-25T14:49:10Z",
+      "content": "One of the best-loved Nintendo 64 games is coming to Switch Online's Expansion Pack\r\n this week. Back in September, Nintendo revealed that GoldenEye 007 was coming to the service and now that day is … [+1272 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Kotaku" },
+      "author": "Ethan Gach",
+      "title": "Rick And Morty Creator Leaves Studio Behind 2022's Biggest Game Pass Launch After Allegations - Kotaku",
+      "description": "High on Life maker Squanch Games revealed the co-founder left last week",
+      "url": "https://kotaku.com/squanch-games-justin-roiland-high-on-life-game-pass-1850028971",
+      "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/1450976e1a7a26f3a0f2a94feb2d488c.png",
+      "publishedAt": "2023-01-25T14:40:00Z",
+      "content": "Justin Roiland is leaving Squanch Games just a month after comedic shooter High on Life became 2022s most popular Xbox Game Pass launch. The studio co-founder who voices many of High on Lifes charact… [+2590 chars]"
+    },
+    {
+      "source": { "id": "associated-press", "name": "Associated Press" },
+      "author": "Rob Maaddi",
+      "title": "Hurts, Jefferson, Mahomes among AP NFL MVP finalists - The Associated Press",
+      "description": "Jalen Hurts, Justin Jefferson and Patrick Mahomes are finalists for The Associated Press 2022 NFL Most Valuable Player and Offensive Player of the Year awards. The winners will be announced at NFL Honors on Feb.",
+      "url": "https://apnews.com/749e5bf5c9d3c7cd37872f34b49e0928",
+      "urlToImage": "https://storage.googleapis.com/afs-prod/media/c012e795c3164ce484b618a3796b7ed4/3000.webp",
+      "publishedAt": "2023-01-25T14:26:15Z",
+      "content": "Jalen Hurts, Justin Jefferson and Patrick Mahomes are finalists for The Associated Press 2022 NFL Most Valuable Player and Offensive Player of the Year awards.\r\nThe winners will be announced at NFL H… [+3261 chars]"
+    },
+    {
+      "source": { "id": "cnn", "name": "CNN" },
+      "author": "Kaitlan Collins, MJ Lee, Zachary Cohen, Phil Mattingly, Kristen Holmes",
+      "title": "Trump and Biden teams both jump on Pence disclosure as a classified documents defense - CNN",
+      "description": "Advisers to former President Donald Trump and President Joe Biden jumped on news of classified documents being found in former Vice President Mike Pence's Indiana home, with both viewing it as a helpful defense in their own documents investigations.",
+      "url": "https://www.cnn.com/2023/01/25/politics/donald-trump-mike-pence-joe-biden-classified-documents/index.html",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230125104227-mike-pence-file-111622-restricted.jpg?c=16x9&q=w_800,c_fill",
+      "publishedAt": "2023-01-25T14:19:00Z",
+      "content": "Advisers to former President Donald Trump and President Joe Biden jumped on news of classified documents being found in former Vice President Mike Pences Indiana home, with both viewing it as a helpf… [+5515 chars]"
+    },
+    {
+      "source": { "id": null, "name": "CBS Sports" },
+      "author": "",
+      "title": "2023 Baseball Hall of Fame voting results: Scott Rolen gets in, joins Fred McGriff; Todd Helton just short - CBS Sports",
+      "description": "Rolen earned 76.3% of the votes from submitted ballots",
+      "url": "https://www.cbssports.com/mlb/news/2023-baseball-hall-of-fame-voting-results-scott-rolen-gets-in-joins-fred-mcgriff-todd-helton-just-short/",
+      "urlToImage": "https://sportshub.cbsistatic.com/i/r/2023/01/25/871eb2ae-13bf-4268-9ba0-3613a85c03ca/thumbnail/1200x675/a17dee289157555bdd79719d3894c205/scott-rolen-getty-3.png",
+      "publishedAt": "2023-01-25T14:16:00Z",
+      "content": "There is a new member of the National Baseball Hall of Fame. The Baseball Writers Association of America has voted Scott Rolen into Cooperstown, it was announced Tuesday. Fred McGriff, who was voted … [+5063 chars]"
+    }
+  ]
+}
