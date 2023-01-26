@@ -4,9 +4,9 @@ import Navbar from './components/Navbar';
 import News from './components/News';
 
 function App() {
-  const [numberOfPost, setnumberOfPost] = useState(6);
+  const [numberOfPost, setnumberOfPost] = useState(8);
   const increasePost = ()=> {
-    setnumberOfPost(numberOfPost + 6)
+    setnumberOfPost(numberOfPost + 4)
   }
     return (
       <div>
