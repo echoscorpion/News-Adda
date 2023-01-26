@@ -15,18 +15,22 @@ export default function NewsItem(props) {
 
   return (
     <>
-      {postData.filter((item, index) => index < props.numberOfPost).map(({ name, title, content, id, url, urlToImage, description }) => (
+      {postData.filter((item, index) => index < props.numberOfPost).map(({ author, title, content, publishedAt, url, urlToImage, description }) => (
           <div className="col" key={url}>
-              <div className="card">
+              <div className="card  position-relative">
               <img src={urlToImage} className="card-img-top" alt={title} style = {{height:220, objectFit:"cover"}} />
               <div className="card-body">
                   {/* 
                   on compilation substring was causing issue because some character were not even 60 or 90
                   <h5 className="card-title" style = {{fontSize:18}} >{title.substring(0,60)+"..."}</h5>
                   <p className="card-text" style = {{fontSize:14}}>{description.substring(0,90)+"..."}</p> */}
+                  {author
+                  ?<div className="author bg-danger p-1 position-absolute text-light" style={{top:4,left:4,width:"auto", fontSize:11}}>{"By: "+ author}</div>
+                  :''}
+                  
                   <h5 className="card-title" style = {{fontSize:18}} >{title.length > 60 ? title.substring(0,60)+"..." : title}</h5>
                   <p className="card-text" style = {{fontSize:14}}>{description ? description.substring(0,90)+"..." : description}</p>
-                  <button className="btn btn-primary btn-small" type="button" data-bs-toggle="offcanvas" data-bs-target={'#'+url}aria-controls="offcanvasRight">Read More</button>
+                  <button className="btn btn-link btn-small" type="button" data-bs-toggle="offcanvas" data-bs-target={'#'+url}aria-controls="offcanvasRight">Read More</button>
               </div>
               </div>
               <div className="offcanvas offcanvas-end" tabIndex="-1" id={url} aria-labelledby="offcanvasRightLabel">
@@ -35,7 +39,15 @@ export default function NewsItem(props) {
               </div>
               <div className="offcanvas-body">
                 <img src={urlToImage} className="card-img-top mb-3" alt={title}/>
-                <h5 className="mb-3" id="offcanvasRightLabel">{title}</h5>
+                {author
+                  ?<span className="author mb-2 text-danger" style={{top:4,left:4,width:"auto", fontSize:11}}><b>{"By: "+ author}</b></span>
+                  :''
+                }
+                {publishedAt
+                  ?<span className="author mb-2 text-danger" style={{top:4,left:4,width:"auto", fontSize:11}}><b>{" / "+publishedAt}</b></span>
+                  :''
+                  }
+                <h5 className="mb-3 mt-2" id="offcanvasRightLabel">{title}</h5>
                 <p>
                   {content}
                 </p>
