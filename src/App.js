@@ -5,10 +5,17 @@ import News from './components/News';
 
 
 function App() {
-  const [numberOfPost, setnumberOfPost] = useState(8);
+
+  document.body.style.background="#000";
   
-  const increasePost = ()=> {
-    setnumberOfPost(numberOfPost + 4)
+
+  const [numberOfPost, setnumberOfPost] = useState(0);
+
+  const increasePost = (start, end)=> {
+  
+    setnumberOfPost(numberOfPost+8)
+    console.log(numberOfPost)
+  
   }
     return (
 

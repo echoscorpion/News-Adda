@@ -2,24 +2,30 @@ import axios from 'axios';
 import React, { useState, useEffect } from 'react';
 
 export default function NewsItem(props) {
+  
   const [postData, setdata] = useState([])
-  
-  
-  const getData = async () => {
-    const newsCategory = props.postCategory;
-    const getUrl = `http://newsapi.org/v2/top-headlines?country=in&category=${newsCategory}&apiKey=2a63954fee844c3d842d1ffb7addd94c`
-    axios.get(getUrl)
-    .then(resp => {setdata(resp.data.articles);})
-    .catch(e => {console.log(e);});
-    };
+  const newsCategory = props.postCategory;
+  // console.log(newsCategory)
   useEffect(() => {
+      const getData = async () => {
+      const getUrl = `http://newsapi.org/v2/top-headlines?country=in&category=${newsCategory}&apiKey=e821b587c3ce4c19b79df5ccf5c515f9`
+      axios.get(getUrl)
+      .then(resp => {setdata(resp.data.articles);})
+      .catch(e => {console.log(e);});
+      // console.log(getUrl)
+
+      };
+      // console.count();
     getData();
-  });
+
+  }, [newsCategory]);
 
   return (
     <>
-      {postData.filter((item, index) =>  index < props.numberOfPost).map(({ author, title, content, publishedAt, url, urlToImage, description }) => (
-          <div className="col" key={url}>
+   
+      {postData.slice(0+props.numberOfPost, (8+props.numberOfPost)).map(({ author, title, content, publishedAt, url, urlToImage, description }) => (
+         
+         <div className="col" key={url+url}>
               <div className="card  position-relative" style={{height:422}}>
               <img src={urlToImage} className="card-img-top" alt={title} style = {{height:220, objectFit:"cover"}} />
               <div className="card-body">
@@ -36,7 +42,7 @@ export default function NewsItem(props) {
                   <button className="btn btn-link btn-small" type="button" data-bs-toggle="offcanvas" data-bs-target={'#'+url}aria-controls="offcanvasRight">Read More</button>
               </div>
               </div>
-              <div className="offcanvas offcanvas-end" tabIndex="-1" id={url} aria-labelledby="offcanvasRightLabel">
+              <div className="offcanvas offcanvas-start" tabIndex="-1" id={url} aria-labelledby="offcanvasRightLabel">
               <div className="offcanvas-header">
                 <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
               </div>
@@ -66,8 +72,8 @@ export default function NewsItem(props) {
             </div>
           </div>
           
-      ))}
-
+      ))
+      }
     </>
   )
 }
