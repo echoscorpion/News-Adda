@@ -1,26 +1,17 @@
-import React, {useState} from 'react';
+import React from 'react';
 import NewsItem from './NewsItem'
-
-
 export default function News(props) {
 
-  const [categoryChange, setcategoryChange] = useState('')
-  
-  const changeCategory = (event) => {
-
-    let btnCat = event.target.getAttribute("value");
-    setcategoryChange(btnCat)
-    
-  }
+ 
 
   return (
     <>
-      <div className="container-fluid mt-5">
+      <div className="container-fluid pt-5" id="mainContainer" style={{background:"#000"}}>
           
           <div className="row">
             <div className="col-md-6 col-12">
-              <h1 className='text-left'>
-              News Adda Lates Articles
+              <h1 className={`text-${props.textMode}`}>
+              News Adda Latest Articles
               </h1>
             </div>
           </div>
@@ -31,23 +22,23 @@ export default function News(props) {
               {/* <span className="text-light btn bg-danger mx-auto" onClick={props.numPostFunc} style={{position:'absolute', right:"15px",top:"-5%", zIndex:999, maxWidth:"105px"}}>
                   Load More
               </span> */}
-              <NewsItem numberOfPost={props.numberOfPost} postCategory={categoryChange}/>
+              <NewsItem numberOfPost={props.numberOfPost} postCategory={props.postCategory} textMode={props.textMode} screenMode={props.screenMode}/>
               <span className="text-light btn bg-danger mx-auto" onClick={props.numPostFunc}>
                   Load More
               </span>
               </div>
             </div>
             <div className="col-md-2 col-12">
-              <h2>
+              <h2 className={`text-${props.textMode}`}>
                 Categories
               </h2>
               
-                  <button className='btn mt-2 border border-danger d-block' value="general" onClick={changeCategory}>General</button>
-                  <button className='btn mt-2 border border-danger d-block' value="science" onClick={changeCategory}>Science</button>
-                  <button className='btn mt-2 border border-danger d-block' value="business" onClick={changeCategory}>Business</button>
-                  <button className='btn mt-2 border border-danger d-block' value="sports" onClick={changeCategory}>Sports</button>
-                  <button className='btn mt-2 border border-danger d-block' value="technology" onClick={changeCategory}>Technology</button>
-                  <button className='btn mt-2 border border-danger d-block' value="entertainment" onClick={changeCategory}>Entertainment</button>
+                  <button className={`btn mt-2 border border-danger d-block text-${props.textMode}`} color="red"value="general" onClick={props.changeCategoryCLick}>General</button>
+                  <button className={`btn mt-2 border border-danger d-block text-${props.textMode}`} color="red"value="science" onClick={props.changeCategoryCLick}>Science</button>
+                  <button className={`btn mt-2 border border-danger d-block text-${props.textMode}`} color="red"value="business" onClick={props.changeCategoryCLick}>Business</button>
+                  <button className={`btn mt-2 border border-danger d-block text-${props.textMode}`} color="red"value="sports" onClick={props.changeCategoryCLick}>Sports</button>
+                  <button className={`btn mt-2 border border-danger d-block text-${props.textMode}`} color="red"value="technology" onClick={props.changeCategoryCLick}>Technology</button>
+                  <button className={`btn mt-2 border border-danger d-block text-${props.textMode}`} color="red"value="entertainment" onClick={props.changeCategoryCLick}>Entertainment</button>
             </div>
           </div>
       </div>
