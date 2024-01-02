@@ -47,11 +47,12 @@ function App() {
 
   }
     return (
+      <>
+       <Navbar screenDisplayMode={handleScreenMode}/>
 
-      <div>
-          <Navbar screenDisplayMode={handleScreenMode}/>
-          <News numPostFunc={increasePost} numberOfPost={numberOfPost} textMode={modeText} postCategory={categoryChange} changeCategoryCLick={changeCategory} screenMode={screenMode}/>
-      </div>
+      <News numPostFunc={increasePost} numberOfPost={numberOfPost} textMode={modeText} postCategory={categoryChange} changeCategoryCLick={changeCategory} screenMode={screenMode}/>
+      </>
+         
     )
 
 }
