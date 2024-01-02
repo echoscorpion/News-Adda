@@ -8,7 +8,8 @@ export default function NewsItem(props) {
   // console.log(newsCategory)
   useEffect(() => {
       const getData = async () => {
-      const getUrl = `http://newsapi.org/v2/top-headlines?country=in&category=${newsCategory}&apiKey=e821b587c3ce4c19b79df5ccf5c515f9`
+        const apiKey = process.env.REACT_APP_NEWS_API_KEY;
+        const getUrl = `https://newsapi.org/v2/top-headlines?country=in&category=${newsCategory}&apiKey=${apiKey}`;        
       axios.get(getUrl)
       .then(resp => {setdata(resp.data.articles);})
       .catch(e => {console.log(e);});
