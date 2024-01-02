@@ -1,3 +1,7 @@
+## The codebase uses a free version of the news api which works onlu on the development/local environment
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
