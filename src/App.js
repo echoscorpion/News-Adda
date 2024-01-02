@@ -18,14 +18,20 @@ function App() {
   const [categoryChange, setcategoryChange] = useState('')
   
   const changeCategory = (event) => {
-    let selectbtnCat = event.target.getAttribute("color");
-    console.log(selectbtnCat)
-    event.target.style.background= (selectbtnCat);
+    const buttons = document.querySelectorAll('.categoryClicks');
+    const selectedButton = event.target;
+    const selectbtnCat = selectedButton.getAttribute('color');
+
+    buttons.forEach((button) => {
+      button.style.background = 'none'; // Reset background color for all buttons
+    });
+
+    selectedButton.style.background = selectbtnCat; // Set background color for the clicked button
     event.preventDefault();
 
-    let btnCat = event.target.getAttribute("value");
-    setcategoryChange(btnCat)
-    setnumberOfPost(0)
+    const btnCat = selectedButton.getAttribute('value');
+    setcategoryChange(btnCat);
+    setnumberOfPost(0);
   }
 
   const [screenMode, setscreenMode] = useState("dark")
