@@ -33,12 +33,12 @@ export default function News(props) {
                 Categories
               </h2>
               
-                  <button className={`btn mt-2 border border-danger d-block text-${props.textMode}`} color="red"value="general" onClick={props.changeCategoryCLick}>General</button>
-                  <button className={`btn mt-2 border border-danger d-block text-${props.textMode}`} color="red"value="science" onClick={props.changeCategoryCLick}>Science</button>
-                  <button className={`btn mt-2 border border-danger d-block text-${props.textMode}`} color="red"value="business" onClick={props.changeCategoryCLick}>Business</button>
-                  <button className={`btn mt-2 border border-danger d-block text-${props.textMode}`} color="red"value="sports" onClick={props.changeCategoryCLick}>Sports</button>
-                  <button className={`btn mt-2 border border-danger d-block text-${props.textMode}`} color="red"value="technology" onClick={props.changeCategoryCLick}>Technology</button>
-                  <button className={`btn mt-2 border border-danger d-block text-${props.textMode}`} color="red"value="entertainment" onClick={props.changeCategoryCLick}>Entertainment</button>
+                  <button className={`categoryClicks btn mt-2 border border-danger d-block text-${props.textMode}`} color="red"value="general" onClick={props.changeCategoryCLick}>General</button>
+                  <button className={`categoryClicks btn mt-2 border border-danger d-block text-${props.textMode}`} color="red"value="science" onClick={props.changeCategoryCLick}>Science</button>
+                  <button className={`categoryClicks btn mt-2 border border-danger d-block text-${props.textMode}`} color="red"value="business" onClick={props.changeCategoryCLick}>Business</button>
+                  <button className={`categoryClicks btn mt-2 border border-danger d-block text-${props.textMode}`} color="red"value="sports" onClick={props.changeCategoryCLick}>Sports</button>
+                  <button className={`categoryClicks btn mt-2 border border-danger d-block text-${props.textMode}`} color="red"value="technology" onClick={props.changeCategoryCLick}>Technology</button>
+                  <button className={`categoryClicks btn mt-2 border border-danger d-block text-${props.textMode}`} color="red"value="entertainment" onClick={props.changeCategoryCLick}>Entertainment</button>
             </div>
           </div>
       </div>
